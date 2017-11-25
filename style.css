@@ -28,7 +28,7 @@ h1{
 #banner{
     height:100vh;
     position:relative;
-    background-image:url('res/Banner_new.jpg');
+    background-image:url('res/Banner_2 .jpg');
     background-size:cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -59,6 +59,8 @@ h1{
     font-size: calc(0.9vh + 0.9vw);
     cursor:pointer;
     transition: all 0.3s;
+    background-color: #ffffff;
+    margin-top:25px;
 }
 #banner button:hover{
     background-color: #1883cb;
