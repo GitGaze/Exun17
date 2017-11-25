@@ -28,7 +28,7 @@ h1{
 #banner{
     height:100vh;
     position:relative;
-    background-image:url('res/Banner_2.jpg');
+    background-image:url('res/Banner_2 .jpg');
     background-size:cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -46,10 +46,11 @@ h1{
     position:absolute;
     bottom:0px;
     width:100%;
-    height:25%;
+    height:30%;
     text-align:center;
     color:white;
     font-size:27px;
+
 }
 #banner button{
     border:none;
@@ -60,9 +61,10 @@ h1{
     cursor:pointer;
     transition: all 0.3s;
     background-color: #ffffff;
+    margin-top:25px;
 }
 #banner button:hover{
-    background-color: #1883cb;
+    background-color: #00c6ff;
 }
 #header{
     height:50vh;
@@ -70,6 +72,7 @@ h1{
     font-size:calc(1.5vw + 1.5vh);
     font-family:'Roboto';
     padding-top:5vh;
+    background-color: #f7f8fa;
 }
 #header>div{
     height: 30%;
@@ -84,15 +87,15 @@ h1{
 }
 .main{
     font-family:'Raleway';
-    text-align: center;
     /*border-bottom:0.75vh solid aliceblue;*/
 }
 .main:nth-of-type(2n-1){
-    background-color: #f1f2f3;
+    background-color: #f7f8fa;
 }
 
 #proc{
     height:100vh;
+    background-image: url('res/bg1.jpg');
 }
 #phead1{
     text-align: center;
@@ -145,6 +148,7 @@ h1{
     font-size:calc(2vw + 2vh);
     font-family:'quicksand';
     padding:15vw 30vh 20vw 30vh;
+    background-image: url('res/bg3.jpg');
 }
 #proc2{
     height:125vh;
@@ -153,7 +157,7 @@ h1{
 #psec2{
     height:45%;
     text-align: center;
-    padding-left:3vw;
+    padding-left:5vw;
     margin-bottom:10vh;
 }
 #psec2>div{
@@ -207,7 +211,7 @@ h1{
     padding:10vw 30vh 15vw 30vh;
 }
 #subf{
-    height:25vh;
+    height:20vh;
     margin-top:4vh;
 
 }
@@ -219,7 +223,7 @@ h1{
     font-size:calc(1vh  + 1vw);
     text-align: center;
     font-family: 'quicksand';
-    background-color: #f1f2f3;
+    background-color: #f7f8fa;
     transition: all 0.1s;
     margin-bottom: 10px; 
 }
@@ -233,13 +237,13 @@ h1{
     height:8vh;
     width:8vw;
     font-family: 'quicksand';
-    background-color: #f1f2f3;
-    border-radius: 5px;
+    background-color: #f7f8fa;
+    
     cursor: pointer;
     transition: all 0.3s
 }
 #subm:hover{
-    background-color: #1883cb;
+    background-color: #10bfde;
 }
 #vid{
     height:100vh;
@@ -254,22 +258,6 @@ h1{
     width:50vw;
     background: black;
 
-}
-.main button{
-    border:none;
-    border-radius: 0px;
-    width:15vw;
-    padding:2vh 2vw;
-    font-size: calc(0.9vh + 0.9vw);
-    cursor:pointer;
-    transition: all 0.3s;
-    background-color: #ffffff;
-}
-.main:nth-of-type(2n-1) button{
-    background-color:#f1f2f3;
-}
-.main button:hover{
-    color: #1883cb;
 }
 footer{
     height:20vh;
