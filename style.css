@@ -4,6 +4,20 @@
 body{
     margin:0;
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
 h1{
     font-size:calc(1.5vh + 1.5vw);
     font-family: 'Roboto';
@@ -186,10 +200,20 @@ header{
 #subm:hover{
     background-color: #1883cb;
 }
+#vid{
+    height:100vh;
+    text-align:center;
+    font-size:calc(1.8vw + 1.8vh);
+    font-family:'quicksand';
+    padding:8vw 30vh 8vw 30vh;
+}
+#vid>video{
+    margin-top: 3vh;
+    height:55vh;
+    width:50vw;
+    background: black;
 
-
-
-
+}
 footer{
     height:20vh;
     background-color:black;
