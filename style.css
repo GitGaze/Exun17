@@ -88,7 +88,7 @@ h1{
     /*border-bottom:0.75vh solid aliceblue;*/
 }
 .main:nth-of-type(2n-1){
-    background-color: #f1f2f3;
+    background-color: #f7f8fa;
 }
 
 #proc{
@@ -219,7 +219,7 @@ h1{
     font-size:calc(1vh  + 1vw);
     text-align: center;
     font-family: 'quicksand';
-    background-color: #f1f2f3;
+    background-color: #f7f8fa;
     transition: all 0.1s;
     margin-bottom: 10px; 
 }
@@ -233,7 +233,7 @@ h1{
     height:8vh;
     width:8vw;
     font-family: 'quicksand';
-    background-color: #f1f2f3;
+    background-color: #f7f8fa;
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s
