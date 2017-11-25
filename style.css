@@ -53,10 +53,10 @@ h1{
 }
 #banner button{
     border:none;
-    border-radius: 3px;
-    width:10vw;
+    border-radius: 0px;
+    width:15vw;
     padding:2vh 2vw;
-    font-size: calc(1vh + 1vw);
+    font-size: calc(0.9vh + 0.9vw);
     cursor:pointer;
     transition: all 0.3s;
 }
@@ -172,7 +172,7 @@ h1{
 #inf1>section{
 
     float:left;
-    height:75%;
+    height:90%;
     width:50%;
 }
 #inf1>#txt1{
@@ -183,7 +183,12 @@ h1{
     font-size:calc(1vh + 0.9vw);
 }
 #inf1>#ig1{
+
     
+}
+#ig1 img{
+    height:100%;
+    width:auto;
 }
 #txt2{
     padding:calc(16vh + 4vw)  6vw 5vh 6vw;
