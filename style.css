@@ -42,11 +42,12 @@ header{
     font-family:'Raleway';
     border-bottom:0.75vh solid aliceblue;
 }
-
+.main:nth-of-type(2n){
+    background-color: #f1f2f3;
+}
 
 #proc{
     height:100vh;
-    background-color:#f1f2f3;
 }
 #phead1{
     text-align: center;
@@ -93,7 +94,6 @@ header{
 }
 
 #big{
-    background-color: #f1f2f3;
     height:100vh;
     text-align:center;
     font-size:calc(2vw + 2vh);
@@ -102,7 +102,6 @@ header{
 }
 #proc2{
     height:125vh;
-    background-color:#ffffff;
     padding-top: 10vh;
 }
 #psec2{
@@ -119,29 +118,35 @@ header{
     padding:0px 20px 0px 20px;
     /*box-shadow: 1px 1px 3px #717171,-1px -1px 3px #717171;*/
 }
-#d2{
+#inf1{
     height:100vh;
 }
-#s2{
-    height:90%;
-    margin-top:10vh;
-    padding-left:10vh;
-}
-#s2>div{
+#inf1>section{
+
     float:left;
-    width:30vw;
-    height:100%;
-    text-align: center;
+    height:75%;
+    width:50%;
 }
-#s2>div:nth-of-type(2){
-    background-color:#efd7b8;
+#inf1>#txt1{
+    padding:calc(16vh + 4vw)  6vw 5vh 6vw;
+    text-align: justify;
 }
-#md{
-    font-size:5vh;
+#txt1>span{
+    font-size:calc(1vh + 0.9vw);
 }
+#inf1>#ig1{
+    
+}
+#txt2{
+    padding:calc(16vh + 4vw)  6vw 5vh 6vw;
+    text-align: justify;
+}
+#txt2>span{
+    font-size:calc(1vh + 0.9vw);
+}
+
 footer{
     height:20vh;
     background-color:black;
 }
-
 
