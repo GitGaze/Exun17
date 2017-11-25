@@ -4,6 +4,10 @@
 body{
     margin:0;
 }
+h1{
+    font-size:calc(1.5vh + 1.5vw);
+    font-family: 'Roboto';
+}
 #banner{
     height:100vh;
     position:relative;
@@ -41,16 +45,21 @@ header{
 
 
 #proc{
-    height:75vh;
+    height:100vh;
     background-color:#f1f2f3;
-    padding-top: 10vh;
+}
+#phead1{
+    text-align: center;
+    height:30%;
+    padding:calc(3vh + 3vw) calc(10vh + 10vw) calc(0vh + 0vw) calc(10vh + 10vw);
 }
 #psec{
-    height:75%;
+    height:60%;
     text-align: center;
-    padding-left:5vw;
-    margin-bottom:10vh;
+    padding-left:calc(3vw + 5vh);
+    padding-right:calc(3vw + 5vh);
 }
+
 #psec>div{
     height:100%;
     float:left;
@@ -60,7 +69,7 @@ header{
     /*box-shadow: 1px 1px 3px #717171,-1px -1px 3px #717171;*/
 }
 #im{
-    height:60%;
+    height:50%;
 }
 #im>img{
     max-width:auto;
@@ -69,16 +78,16 @@ header{
 #cont{
     height:40%;   
 }
-#pr2,#pr3{
-    margin-left:1vw;
+#pr1,#pr2,#pr3{
+    margin-left:2vw;
 }
 #hd{
-    font-size:2vw;
+    font-size:calc(1vw + 1.5vh);
     font-family: 'Roboto';
     color: #47484a;
 }
 #lin{
-    font-size:1.5vw;
+    font-size:calc(0.75vw + 1vh);
     color: #696a6c;
 
 }
@@ -87,7 +96,7 @@ header{
     background-color: #f1f2f3;
     height:100vh;
     text-align:center;
-    font-size:2vw;
+    font-size:calc(2vw + 2vh);
     font-family:'quicksand';
     padding:15vw 30vh 20vw 30vh;
 }
@@ -97,7 +106,7 @@ header{
     padding-top: 10vh;
 }
 #psec2{
-    height:40%;
+    height:45%;
     text-align: center;
     padding-left:5vw;
     margin-bottom:10vh;
@@ -134,4 +143,5 @@ footer{
     height:20vh;
     background-color:black;
 }
+
 
