@@ -144,6 +144,51 @@ header{
 #txt2>span{
     font-size:calc(1vh + 0.9vw);
 }
+#subdiv{
+    height:100vh;
+    text-align:center;
+    font-size:calc(2vw + 2vh);
+    font-family:'quicksand';
+    padding:10vw 30vh 15vw 30vh;
+}
+#subf{
+    height:20vh;
+    margin-top:4vh;
+
+}
+#fiel{
+    width:80%;
+    padding:1vw;
+    outline: none;
+    border:none;
+    font-size:calc(1vh  + 1vw);
+    text-align: center;
+    font-family: 'quicksand';
+    background-color: #f1f2f3;
+    transition: all 0.1s;
+    margin-bottom: 10px; 
+}
+#fiel:focus{
+    outline: none;
+    border-bottom: 2px solid #1883cb;
+}
+#subm{
+    border:none;
+    font-size:calc(1vw + 1vh);
+    height:8vh;
+    width:8vw;
+    font-family: 'quicksand';
+    background-color: #f1f2f3;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s
+}
+#subm:hover{
+    background-color: #1883cb;
+}
+
+
+
 
 footer{
     height:20vh;
