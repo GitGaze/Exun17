@@ -118,6 +118,7 @@ h1{
 }
 #im{
     height:50%;
+    transition: all 0.4s;
 }
 #im>img{
     max-width:auto;
@@ -125,7 +126,7 @@ h1{
 }
 #cont{
     height:40%; 
-    transition:color:0.3s;  
+      
 }
 #pr1,#pr2,#pr3{
     margin-left:2vw;
@@ -134,10 +135,12 @@ h1{
     font-size:calc(1vw + 1.5vh);
     font-family: 'Roboto';
     color: #47484a;
+    transition:color,0.3s;
 }
 #lin{
     font-size:calc(0.75vw + 1vh);
     color: #696a6c;
+    transition:color,0.5s;
 
 }
 
@@ -162,14 +165,20 @@ h1{
 #psec2>div{
     height:100%;
     float:left;
-    
+    transition:all 0.4s;
     width:30%;
     padding:0px 20px 0px 20px;
     
     /*box-shadow: 1px 1px 3px #717171,-1px -1px 3px #717171;*/
 }
+#psec2>div:hover{
+    transform: translate(0px,-2vh);
+}
 #psec2>div:hover #cont>span{
-    color: black;
+   color: #20608a ;
+}
+#psec2>div:hover #im{
+    transform: translate(0px,4vh);
 }
 #inf1{
     height:100vh;
