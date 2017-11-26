@@ -2,6 +2,7 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Raleway:300,400" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
@@ -11,7 +12,7 @@
 </head>
 <body>
 <div id="banner">
-   
+    <img src="res/logo.png">
     <div>
         WELCOME TO THE<BR>
         <b>NEW WORLD</b><br>
@@ -51,28 +52,24 @@
         </div>
     </div>
     </section>
+    <button onclick="Scrl('#bigspan')"><i class="fa fa-angle-double-down fa-2x icon-arrow"></i></button>
 </div>
 <div id="header" class="main">
     <div><b>Project Coordinated With</b></div>
     <img src="res/nasa.png">
     <img src="res/un.png">
-    <img src="res/esa.png">
     <img src="res/isro.png">
     <img src="res/iss.png">
-</div>
-<!--<div id="d2" class="main">
-    <section id="s2">
-        <div id="lef"></div>
-        <div id="md">Why<br>Emmigrate?</div>
-        <div id="righ"></div>
-    </section>
-</div> -->
+    <img src="res/esa.png">
+</div>  
 
 <div id="big" class="main">
-"This is the chance to establish yourself as one of the thousand founders, who will forge the future human civilisation on the next Earth."<br>
+<span id="bigspan">"This is the chance to establish yourself as one of the thousand founders, who will forge the future human civilisation on the next Earth."</span><br>
 <br>
-But why only Orci?
+But why only Orci?<br><br>
+ <button onclick="Scrl('#proc2')"><i class="fa fa-angle-double-down fa-2x icon-arrow"></i></button>
 </div>
+
 <div id="proc2" class="main">
     <section id="phead"></section>
     <section id="psec2">
@@ -125,6 +122,7 @@ But why only Orci?
         </div>
     </div>
     </section>
+    <button onclick="Scrl('#inf1')"><i class="fa fa-angle-double-down fa-2x icon-arrow"></i></button>
 </div>
 <div id="inf1" class="main">
     <section id="txt1"><h1>"A One-Way (but not just a) Trip, it is a Mission for creating Mankind's Post-Earth Future." </h1>
@@ -132,6 +130,7 @@ But why only Orci?
     </section>
 
     <section id="ig1"><img src="res/logo.png"></section>
+     
 
 </div>
 <div id="inf1" class="main">
@@ -149,15 +148,32 @@ Sign yourself up as a potential founder by just entering your email address<br>
 <input type="text" name="" id="fiel" placeholder="founder@tobeone.com"><br>
 <input type="submit" name="" id="subm">
 </form>
-
+<button onclick="Scrl('#vid')"><i class="fa fa-angle-double-down fa-2x icon-arrow"></i></button>
 </div> 
 <div id="vid" class="main">
-Watch The Video
-<video controls>
-    <source src="" type="video/mp4">
-</video>
+Watch The Video<br>
+<iframe src="https://www.youtube.com/embed/ZPu3xO3kV0g" frameborder="0" gesture="media" allowfullscreen></iframe>
 </div>
 <footer>
+<div id="f1"><span id="fsp1">MAIN OFFICE</span><br>
+<span id="fsp2">3451 N.Hedge Ave.<br>
+                Chicgago,IL<br>
+                Email:<br>
+                contact@antariksh.com</span></div>
+<div id="f2">
+    <span id="fsp1">SUPPORT OFFICE</span><br>
+    <span id="fsp2">1289 W 57th Terr<br>
+                    Westwood,KS<br>
+                    Email:<br>
+                    support@antariksh.com</span>
+</div>
+<div id="f3">
+    <section id="flogo"><img src="res/logo.png"></section>
+</div>
+<section id="foottext">
+    <div id="fbut"><button onclick="Scrl('#proc')">BACK TO TOP</button></div>
+    <div id="fright">&copy Antariksh 2017. All rights reserved.</div>
+</section>
 </footer>
 </body>
 <script>
